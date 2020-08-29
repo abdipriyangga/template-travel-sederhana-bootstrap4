@@ -1,0 +1,103 @@
+/* .gambar{
+ background: url(img/bali.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: rgba(42,38, 61, 0.82);
+ filter: brightness(50%);
+}
+
+.logo{
+    position: absolute;
+    margin-left: 500px;
+    filter: contrast(100%) brightness(300%);
+
+}
+ */
+
+@font-face
+{
+    font-family: Pacifico;
+    src: url(assets/fonts/Pacifico.ttf);
+}
+@font-face
+{
+    font-family: sfPro;
+    src: url(assets/fonts/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+.jumbotron
+{
+    background-color:rgba(42,38, 61, 0.82);
+    background-image: url(assets/img/BaliBackground.png);
+    background-size: cover;
+    height: 700px;
+}
+
+.display-4
+{
+    margin-top: 10px;
+    font-size: 46px;
+    font-family: 'Pacifico';
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.lead
+{
+    font-family: 'Pacifico';
+    font-size: 46px;
+    font-weight: normal;
+    color: #FCB371;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.leadAbout
+{
+    font-family: 'Pacifico';
+    font-size: 46px;
+    font-weight: normal;
+    color: #FCB371;
+    text-align: center;
+    margin-top: 100px;
+}
+p
+{
+    color: white;
+    text-align: center;
+}
+
+.txtAbout
+{
+    font-size: 28px;
+    color: white;
+    text-align: center;  
+    font-family: 'sfPro';
+    font-weight: auto;
+    margin-top: 50px;
+}
+.logo
+{
+    margin-left: 570px;
+}
+
+.btn 
+{
+    transition: 0.4s;
+    background-color: transparent;
+    border: 1px solid #FCB371;
+    color: white;
+    padding: 12px 32px;
+}
+.btn:hover
+{
+    background-color: #FCB371;
+    color: white;
+    border: 1px solid #FCB371;
+}
+
+.fa-arrow-left
+{
+    color: #FCB371;
+    font-size: 28px;
+}
